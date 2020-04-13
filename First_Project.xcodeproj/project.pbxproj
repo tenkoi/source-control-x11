@@ -11,6 +11,9 @@
 		527DE9D52444CCA2000DF715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527DE9D42444CCA2000DF715 /* ViewController.swift */; };
 		527DE9D72444CCA3000DF715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527DE9D62444CCA3000DF715 /* Assets.xcassets */; };
 		527DE9DA2444CCA3000DF715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527DE9D82444CCA3000DF715 /* Main.storyboard */; };
+		527DE9E52444D0EB000DF715 /* groupFile2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 527DE9E32444D0EB000DF715 /* groupFile2.txt */; };
+		527DE9E62444D0EB000DF715 /* groupFile1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 527DE9E42444D0EB000DF715 /* groupFile1.txt */; };
+		527DE9E82444D1EB000DF715 /* Folder Example in Resources */ = {isa = PBXBuildFile; fileRef = 527DE9E72444D1EB000DF715 /* Folder Example */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		527DE9D92444CCA3000DF715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		527DE9DB2444CCA3000DF715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		527DE9DC2444CCA3000DF715 /* First_Project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = First_Project.entitlements; sourceTree = "<group>"; };
+		527DE9E32444D0EB000DF715 /* groupFile2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = groupFile2.txt; sourceTree = "<group>"; };
+		527DE9E42444D0EB000DF715 /* groupFile1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = groupFile1.txt; sourceTree = "<group>"; };
+		527DE9E72444D1EB000DF715 /* Folder Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Folder Example"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +61,23 @@
 			children = (
 				527DE9D22444CCA2000DF715 /* AppDelegate.swift */,
 				527DE9D42444CCA2000DF715 /* ViewController.swift */,
+				527DE9E72444D1EB000DF715 /* Folder Example */,
+				527DE9E22444D0EB000DF715 /* Group Example */,
 				527DE9D62444CCA3000DF715 /* Assets.xcassets */,
 				527DE9D82444CCA3000DF715 /* Main.storyboard */,
 				527DE9DB2444CCA3000DF715 /* Info.plist */,
 				527DE9DC2444CCA3000DF715 /* First_Project.entitlements */,
 			);
 			path = First_Project;
+			sourceTree = "<group>";
+		};
+		527DE9E22444D0EB000DF715 /* Group Example */ = {
+			isa = PBXGroup;
+			children = (
+				527DE9E42444D0EB000DF715 /* groupFile1.txt */,
+				527DE9E32444D0EB000DF715 /* groupFile2.txt */,
+			);
+			path = "Group Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				527DE9D72444CCA3000DF715 /* Assets.xcassets in Resources */,
+				527DE9E82444D1EB000DF715 /* Folder Example in Resources */,
 				527DE9DA2444CCA3000DF715 /* Main.storyboard in Resources */,
+				527DE9E62444D0EB000DF715 /* groupFile1.txt in Resources */,
+				527DE9E52444D0EB000DF715 /* groupFile2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
